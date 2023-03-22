@@ -20,14 +20,14 @@ const DISHES = [
                 rating: 4,
                 comment: "Emagin allthe eatables, living in conFusin!",
                 author: "Antar",
-                date: "2023-03-20T17:57:28.556094Z"
+                date: "2023-02-20T17:07:28.556094Z"
             },
             {
                 id: 2,
                 rating: 3,
                 comment: "Emagin allthe eatables, living in conFusin!",
                 author: "Raktim",
-                date: "2023-03-20T17:57:28.556094Z"
+                date: "2023-01-20T17:57:28.556094Z"
             },
 
         ]
