@@ -1,9 +1,19 @@
 import React from "react";
 import Menu from "./Menu";
-const Body = () =>{
-    return(
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import { Route } from "react-router";
+const Body = () => {
+    return (
         <div>
-            <Menu />
+            {/* <Routes> */}
+                <Route path="/" exact component={Home} />
+                <Route path="/menu" exact component={Menu} />
+                <Route path="/about" exact component={About} />
+                <Route path="/contact" exact component={Contact} />
+            {/* </Routes> */}
+
         </div>
     );
 }
